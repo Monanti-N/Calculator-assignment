@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ushanga Beads Business</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <h1>Welcome to Ushanga Beads</h1>
+    <p>We specialize in handcrafted waist beads, anklets, bracelets, and rings made from wooden, coral, and Maasai beads. Customization available — we can add your name using lettered beads!</p>
+
+    <!-- Ordered list with Roman numerals -->
+    <h2>Our Products</h2>
+    <ol type="I">
+        <li>Waist Beads</li>
+        <li>Anklets</li>
+        <li>Bracelets</li>
+        <li>Rings</li>
+        <li>Customized Name Beads</li>
+    </ol>
+
+    <!-- External image from pexels -->
+    <h2>Our Beautiful Creations</h2>
+    <img src="https://images.pexels.com/photos/943531/pexels-photo-943531.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beads Display" width="600">
+
+    <!-- Table of 5 contacts -->
+    <h2>Contact Our Team</h2>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Mary Akinyi</td>
+            <td>Nairobi, Kenya</td>
+            <td>+254712345678</td>
+            <td>mary@ushangabeads.com</td>
+        </tr>
+        <tr>
+            <td>James Otieno</td>
+            <td>Kisumu, Kenya</td>
+            <td>+254723456789</td>
+            <td>james@ushangabeads.com</td>
+        </tr>
+        <tr>
+            <td>Faith Wanjiru</td>
+            <td>Nakuru, Kenya</td>
+            <td>+254734567890</td>
+            <td>faith@ushangabeads.com</td>
+        </tr>
+        <tr>
+            <td>John Mwangi</td>
+            <td>Mombasa, Kenya</td>
+            <td>+254745678901</td>
+            <td>john@ushangabeads.com</td>
+        </tr>
+        <tr>
+            <td>Linda Mutua</td>
+            <td>Eldoret, Kenya</td>
+            <td>+254756789012</td>
+            <td>linda@ushangabeads.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration form -->
+    <h2>Register with Us</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Create a password" minlength="6" required><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="product">Favorite Product:</label><br>
+        <select id="product" name="product" required>
+            <option value="">--Select--</option>
+            <option value="waist_beads">Waist Beads</option>
+            <option value="anklets">Anklets</option>
+            <option value="bracelets">Bracelets</option>
+            <option value="rings">Rings</option>
+        </select><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label><br><br>
+
+        <label>Preferred Bead Types:</label><br>
+        <input type="checkbox" id="wooden" name="bead_type" value="Wooden">
+        <label for="wooden">Wooden</label><br>
+        <input type="checkbox" id="coral" name="bead_type" value="Coral">
+        <label for="coral">Coral</label><br>
+        <input type="checkbox" id="maasai" name="bead_type" value="Maasai">
+        <label for="maasai">Maasai</label><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <audio controls>
+        <h2>Listen to our crafting music</h2>
+        <source src="africa-beat-266157.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+      
+
+    <!-- Video element -->
+    <h2>Watch how we make your beads</h2>
+    <video width="600" height="600" controls>
+        <source src="https://videos.pexels.com/video-files/7578162/7578162-sd_360_640_24fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+</html>
